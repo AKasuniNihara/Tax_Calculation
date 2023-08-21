@@ -95,7 +95,7 @@ public class taxCal {
         }
         else if(income <= 183333){
             taxRate = 0.12;
-            tax = ( (income - 1416667)*taxRate ) + 2500;
+            tax = ( (income - 141667)*taxRate ) + 2500;
             System.out.println("Tax : "+Math.round(tax));
         }
         else if(income <= 225000){
